@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
+from pokemon import Pokemon
 """
 This Python module contains not only the class Pokemon, but also the test of
 this Python class.
@@ -35,7 +35,11 @@ this Python class.
 
 
 
-class PokemonEarth():
+class PokemonEarth(Pokemon):
+
+    def __init__(self, id, name , weapon, health, attack, defense):
+        super().__init__(id, name, weapon, health, attack, defense)
+
     """Python class to implement a basic version of a Pokemon of the game.
 
     This Python class implements the basic version of a Pokemon of the game.
