@@ -64,7 +64,7 @@ class WeaponType(Enum):
     KICK = 4
     ELBOW = 6
     HEADBUTT = 10
-    
+
 
 
 
