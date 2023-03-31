@@ -45,7 +45,25 @@ class Pokemon():
         self.attack = attack
         self.defense = defense
 
+    def getId(self):
+        return self.id
+
+    def getName(self):
+        return self.name
+
+    def getWeapon(self):
+        return self.weapon
+
+    def getHealthy(self):
+        return self.health
     
+    def getAttack(self):
+        return self.attack
+    
+    def getDefense(self):
+        return self.defense
+
+
     """Python class to implement a basic version of a Pokemon of the game.
 
     This Python class implements the basic version of a Pokemon of the game.

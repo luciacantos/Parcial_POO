@@ -1,0 +1,16 @@
+Clase Pokemon
+    Atributos
+        ID: int
+        Name: string
+        Weapon: enum
+        Health: int
+        Attack: int
+        Defense: int
+
+    Métodos
+        __init__(self, int id. str name, enum weapon, int health, int attack, int defense): void
+        __del__(self): void
+        __str__(self): str
+        is_alive(self): booleam
+        fight_attack(self, pokemon_attack): boolean
+        fight_defense(self, int damage): boolean
