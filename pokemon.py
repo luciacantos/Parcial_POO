@@ -33,9 +33,19 @@ this Python class.
 
 # Source packages.
 
-
+from weapon_type import WeaponType
 
 class Pokemon():
+
+    def __init__(self, id, name, weapon, health, attack, defense):
+        self.id = id
+        self.name = name
+        self.weapon = weapon
+        self.health = health
+        self.attack = attack
+        self.defense = defense
+
+    
     """Python class to implement a basic version of a Pokemon of the game.
 
     This Python class implements the basic version of a Pokemon of the game.
